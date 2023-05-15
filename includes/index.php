@@ -12,8 +12,9 @@
 <h1>EKITI STATE UNIVERSITY 2023 YEARBOOK</h1>
      
     <form method="POST" action="./includes/upload.php" enctype="multipart/form-data">
-        <label for="file" style="padding-top: 20px; padding-bottom: 20px; background-color: turquoise; padding: 12px; color: white; border-radius: 5px; border: 2px dashed grey;">Choose a file</label>
-        <input type="file" style="display: none" name="fileToUpload" id="file">
+        <label for="file" class="col-6" style="padding-top: 20px; padding-bottom: 20px; background-color: turquoise; padding: 12px; color: white; border-radius: 5px; border: 2px dashed grey;">Choose a file</label>
+        <input type="file" style="display: none" name="fileToUpload" id="file"><br>
+        <textarea class="form-control" ></textarea>
         <input type="submit" name="submit" value="Upload File">
     </form>
 
